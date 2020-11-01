@@ -15,9 +15,9 @@ g++ -Wall -pthread -o dht22 main.cpp DHT22.cpp DHT22Ctl.cpp -lmysqlcppconn -lpig
 
 
 # As a Deamon
-DHT22_SYS_V start
+./DHT22_SYS_V start
 
 
 # At startup
 Move to /etc/init.d/
-chmod +x DHT22_SYS_V
+chmod +x ./DHT22_SYS_V
