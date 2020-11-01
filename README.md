@@ -1,6 +1,9 @@
 # C++ dht22 driver
 C++ python port that uses pigpiod.<br>
 
+!!!Development status:<br>
+> Package is currently in Development status. Bugs may occur, library may be unstable, API may be changed anytime.<br>
+
 ## Prequisites:
 - One or more dht22 sensors.
 - A MySQL database.
@@ -22,3 +25,8 @@ Place `<tests/sensor.ini>` in the same dir as the compiled file and fill in the 
 # At startup
 Move to /etc/init.d/<br>
 chmod +x ./DHT22_SYS_V
+
+## To Do:
+- Implement script to create the necessery SQL table
+
+> Sorry, no further documentation available yet!
