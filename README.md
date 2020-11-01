@@ -1,5 +1,4 @@
-# dht22
-C++ dht22 driver that reads from .ini file and logs to MySQL
+# C++ dht22 driver that reads from .ini file and logs to MySQL
 
 # Requires
 One (or more) DHT22.
