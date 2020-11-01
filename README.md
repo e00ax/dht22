@@ -21,3 +21,11 @@ g++ -Wall -pthread -o dht22 main.cpp DHT22.cpp DHT22Ctl.cpp -lmysqlcppconn -lpig
 # At startup
 Move to /etc/init.d/
 chmod +x ./DHT22_SYS_V
+
+Feature	Status	Version
+Notifications (e.g. GPIO changes)	✔️ Fully supported	0.1.1
+Reading PWM signals	✔️ Fully supported	0.1.2
+Sending PWM signals	✔️ Fully supported	0.3.0
+SPI communication	✔️ Fully supported	0.2.0
+Hall sensors rotation counter	✔️ Fully supported	0.2.5
+Raw requests/response handling	✔️ Fully supported	0.1.1
