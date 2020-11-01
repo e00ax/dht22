@@ -27,6 +27,6 @@ Move to /etc/init.d/<br>
 chmod +x ./DHT22_SYS_V
 
 ## To Do:
-- Implement script to create the necessery SQL table
+- Implement script to create the necessery SQL table.
 
 > Sorry, no further documentation available yet!
