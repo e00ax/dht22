@@ -4,7 +4,7 @@ C++ python port that uses pigpiod.<br>
 ## Prequisites:
 - One or more dht22 sensors.
 - A MySQL database.
-- glibmm2.4, mysql c++ connector installled.
+- glibmm2.4, mysql c++ connector.
 - Pigpiod running.
 
 ## Installation:
