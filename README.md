@@ -1,10 +1,12 @@
+<p>
 # dht22
 C++ dht22 driver that reads from .ini file and logs to MySQL
+</p>
 
-
+<p>
 # Requires
 One (or more) DHT22.
-
+</p>
 
 # To Build
 g++ -Wall -pthread -o dht22 main.cpp DHT22.cpp DHT22Ctl.cpp -lmysqlcppconn -lpigpio -lrt `pkg-config --cflags --libs glibmm-2.4`
