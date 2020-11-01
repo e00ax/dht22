@@ -8,7 +8,7 @@ C++ python port that uses pigpiod.<br>
 - Pigpiod running.
 
 ## Installation:
-g++ -Wall -pthread -o dht22 main.cpp DHT22.cpp DHT22Ctl.cpp -lmysqlcppconn -lpigpio -lrt `pkg-config --cflags --libs glibmm-2.4`<br>
+`g++ -Wall -pthread -o dht22 main.cpp DHT22.cpp DHT22Ctl.cpp -lmysqlcppconn -lpigpio -lrt $(pkg-config --cflags --libs glibmm-2.4)`<br>
 Place `<tests/sensor.ini>` in the same dir as the compiled file and fill in the details.<br>
 
 # To run
